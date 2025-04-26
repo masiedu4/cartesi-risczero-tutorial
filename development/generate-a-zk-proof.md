@@ -74,7 +74,7 @@ edition = "2021"
 
 [dependencies]
 methods = { path = "../methods" }
-risc0-zkvm = { version = "1.2.5" }
+risc0-zkvm = { version = "^2.0.1" }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 serde = "1.0"
 serde_json = "1.0"
@@ -96,7 +96,7 @@ edition = "2021"
 [workspace]
 
 [dependencies]
-risc0-zkvm = { version = "1.2.5", default-features = false, features = ['std'] }
+risc0-zkvm = { version = "^2.0.1", default-features = false, features = ['std'] }
 
 ```
 

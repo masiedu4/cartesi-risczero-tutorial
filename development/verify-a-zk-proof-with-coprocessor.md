@@ -33,7 +33,7 @@ json = "0.12"
 hyper = { version = "0.14", features = ["http1", "runtime", "client"] }
 tokio = { version = "1.32", features = ["macros", "rt-multi-thread"] }
 bincode = "1.3"
-risc0-zkvm = { version = "1.2.5" }
+risc0-zkvm = { version = "^2.0.1" }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 hex = "0.4"
