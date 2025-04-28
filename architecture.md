@@ -6,7 +6,7 @@ This section details the technical architecture of our RISC Zero + Cartesi integ
 
 The integration consists of three main components that work together to generate and verify zero-knowledge proofs:
 
-![Proof Generation and Verification Flow](./img/cartesi-risczero.svg)
+![Proof Generation and Verification Flow](./img/cartesi-risczero.png)
 
 The process begins when the **Host** prepares private inputs and the **Guest** performs confidential computation, after which RISC Zero generates and serializes a cryptographic proof receipt. Finally, **the Cartesi Machine** deserializes the receipt, and its verifier program validates the proof.
 
